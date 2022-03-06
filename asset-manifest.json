@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GaneshParmar/News.in/static/css/main.6af9f1b9.css",
+    "main.js": "/GaneshParmar/News.in/static/js/main.891865af.js",
+    "static/js/787.4c026eef.chunk.js": "/GaneshParmar/News.in/static/js/787.4c026eef.chunk.js",
+    "static/media/topHeader.jpg": "/GaneshParmar/News.in/static/media/topHeader.1b2ca1c4d5e2457f9ed6.jpg",
+    "index.html": "/GaneshParmar/News.in/index.html",
+    "main.6af9f1b9.css.map": "/GaneshParmar/News.in/static/css/main.6af9f1b9.css.map",
+    "main.891865af.js.map": "/GaneshParmar/News.in/static/js/main.891865af.js.map",
+    "787.4c026eef.chunk.js.map": "/GaneshParmar/News.in/static/js/787.4c026eef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6af9f1b9.css",
+    "static/js/main.891865af.js"
+  ]
+}
