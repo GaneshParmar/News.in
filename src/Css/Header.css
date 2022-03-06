@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    min-height: 70px;
+    background-color: gray;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;  
+    background: url('../Images/topHeader.jpg');
+    position: absolute;
+    /* background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; */
+    opacity: 0.2;
+}
+
+h1{
+    font-family: monospace;
+    /* z-index: ; */
+    text-align: center;
+    position: relative;
+    min-height: 70px;
+    font-weight: 900px;
+    padding-top: 20px;
+}
+
+
+@media (max-width:700px) {
+    h1{
+        padding-top: 20px;
+    }
+}
