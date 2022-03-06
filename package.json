@@ -1,8 +1,8 @@
 {
-  "name": "newsapp",
+  "name": "nesapp",
+  "homepage": "https://github.com/GaneshParmar/DailyNews",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/GaneshParmar/DailyNews",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -11,11 +11,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    
+   "predeploy": "npm run build",
    "deploy": "gh-pages -d build",
    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
