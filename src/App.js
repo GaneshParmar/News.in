@@ -68,7 +68,7 @@ class App extends React.Component {
     render() {
       const { DataisLoaded, items } = this.state;
 	  
-	  if(!DataisLoaded && items.length==0){
+	  if(!DataisLoaded && this.state.items.totalResults===0){
 		  return(
 			  <div>
 				<Header />
@@ -79,11 +79,12 @@ class App extends React.Component {
 				</div>
 			</div>
 		  )
-	  }			 
-
-	  if (!DataisLoaded) return <div className='loading'>
+		}			 
+		
+		if (!DataisLoaded) return <div className='loading'>
 		  	<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Loader.gif/480px-Loader.gif' alt='loading..'/>
 			<h1> Pleses wait some time.... </h1> </div> ;
+		console.log(this.state.items)
 	//   console.log("Result ",this.state.items);
 	//   console.log("C",typeof this.state.items.category[0] !== 'undefined')
 	//   if(){
