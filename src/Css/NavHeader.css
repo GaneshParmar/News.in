@@ -1,0 +1,17 @@
+
+.nav-link:not(.active>.nav-link){
+    color: gray;
+}
+
+input{
+    opacity: 0;
+}
+
+input:checked ~ label{
+    color: #0d6efd !important;
+}
+
+label{
+    color: gray;
+    font-weight: 450;
+}
