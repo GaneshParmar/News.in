@@ -1,6 +1,7 @@
 import React from 'react'
 import News from './News'
 import '../Css/newsWrapper.css'
+import CricketScore from './CricketScore'
 
 function NewsWrapper({r,tag}) {
     
@@ -36,6 +37,15 @@ function NewsWrapper({r,tag}) {
           }
 
         });
+
+
+  if(tag=='cricket'){
+    
+    return(
+     <CricketScore />
+   );
+  }
+
 
   return (
     

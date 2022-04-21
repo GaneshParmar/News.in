@@ -38,6 +38,10 @@ function NavHeader({parentCallback}) {
                 <input type='radio' id='navTag5' name='navTag' value={'entertainment'} onChange={tagChange}/>
                 <label htmlFor="navTag5">#Entertainment</label>
             </li>
+            <li className="nav-item p-1">
+                <input type='radio' id='navTag6' name='navTag' value={'cricket'} onChange={tagChange}/>
+                <label htmlFor="navTag6">#LiveScoreIpl</label>
+            </li>
         </ul>
     </div>
   )

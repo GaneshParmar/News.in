@@ -1,0 +1,64 @@
+.card{
+    display: block !important;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.cardWrap1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team{
+    width: 40%;
+    max-width: 200px;
+    justify-content: space-around;
+}
+
+.team1Img{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.team2Img{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cardWrap2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    font-size: 18px;
+}
+
+.cardWrap2>p{
+    width: 100%;
+}
+
+.score{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.team2>p{
+    text-align: right;
+    width: 100%;
+}
+
+.team-stats{
+    padding: 0.3em;
+}
+
+.team-stats>p:not(.team2>p){
+    text-align: left;
+}
+
+.comment{
+    padding: 1em;
+}

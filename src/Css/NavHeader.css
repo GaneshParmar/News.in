@@ -1,3 +1,6 @@
+.nav-item>label{
+    cursor: pointer;
+}
 
 .nav-link:not(.active>.nav-link){
     color: gray;

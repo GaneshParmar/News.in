@@ -3,7 +3,6 @@ import Header from './Components/Header';
 import NewsWrapper from './Components/newsWrapper';
 import React from 'react';
 import NavHeader from './Components/NavHeader';
-import Footer from './Components/Footer';
 
 
 class App extends React.Component {
@@ -31,7 +30,7 @@ class App extends React.Component {
     handleCallback = (tagSelected) =>{
 		// this.componentDidMount()
         this.setState({tag: tagSelected})
-		this.render()
+		// this.render()
     }
 
 	// ComponentDidMount is used to
@@ -66,8 +65,9 @@ class App extends React.Component {
     <div>
       <Header />
 	  <NavHeader parentCallback={this.handleCallback}/>
+
 	  <NewsWrapper r={this.state.result} tag={this.state.tag}/>
-	  <Footer />
+
 
     </div>
 	);
