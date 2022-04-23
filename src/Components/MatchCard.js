@@ -167,7 +167,7 @@ export class MatchCard extends Component {
             <div className="p-2">
                 <h5>Live commentary <i class="fa fa-volume-up m-1" aria-hidden="true"></i></h5>
                 <div className='comment shadow-lg'>
-                    {scoreData.commentary}
+                    {typeof(scoreData.commentary)!="string"?scoreData.commentary[0]:scoreData.commentary}
                 </div>
             </div>
         );
@@ -367,6 +367,7 @@ export class MatchCard extends Component {
             <div className={this.getOrder()}>
                 <p className='text-danger'>
                     {this.live()}
+                    <p className='d-block text-secondary'>Credit:-<a href={`https://www.cricbuzz.com/live-cricket-scores/${this.props.matchNo}/`}>Cricbuzz</a></p>
                 </p>
                 <div className='cardWrap1'>
                     {this.teamPlaying()}
