@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/News.in/static/css/main.4a76e7b9.css",
-    "main.js": "/News.in/static/js/main.9bb58f1e.js",
+    "main.css": "/News.in/static/css/main.57db46c0.css",
+    "main.js": "/News.in/static/js/main.3c49b7e4.js",
     "static/js/787.4c026eef.chunk.js": "/News.in/static/js/787.4c026eef.chunk.js",
     "static/media/fa-solid-900.ttf": "/News.in/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/mumbai.png": "/News.in/static/media/mumbai.bed5e8ef29d6de918f73.png",
     "static/media/fa-brands-400.ttf": "/News.in/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "/News.in/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
+    "static/media/lsg.png": "/News.in/static/media/lsg.5f715add83fc22d47345.png",
     "static/media/fa-brands-400.woff2": "/News.in/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
     "static/media/fa-regular-400.ttf": "/News.in/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/csk.png": "/News.in/static/media/csk.668bcb241219ecb92510.png",
+    "static/media/gt.png": "/News.in/static/media/gt.3d24994aee47b8fda525.png",
     "static/media/fa-regular-400.woff2": "/News.in/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/cricket-ball.png": "/News.in/static/media/cricket-ball.36adbb29fbe8e4ce2e44.png",
+    "static/media/rr.png": "/News.in/static/media/rr.8c813c6a18d92e63e94f.png",
+    "static/media/kkr.png": "/News.in/static/media/kkr.0f0349dc7eeb410d8f46.png",
+    "static/media/cricket-bat.png": "/News.in/static/media/cricket-bat.727258f9170f704c4939.png",
     "static/media/fa-v4compatibility.ttf": "/News.in/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "index.html": "/News.in/index.html",
+    "static/media/srh.jfif": "/News.in/static/media/srh.3cf66fbf0bfb1cd3dd32.jfif",
     "static/media/fa-v4compatibility.woff2": "/News.in/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
-    "main.4a76e7b9.css.map": "/News.in/static/css/main.4a76e7b9.css.map",
-    "main.9bb58f1e.js.map": "/News.in/static/js/main.9bb58f1e.js.map",
+    "main.57db46c0.css.map": "/News.in/static/css/main.57db46c0.css.map",
+    "main.3c49b7e4.js.map": "/News.in/static/js/main.3c49b7e4.js.map",
     "787.4c026eef.chunk.js.map": "/News.in/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a76e7b9.css",
-    "static/js/main.9bb58f1e.js"
+    "static/css/main.57db46c0.css",
+    "static/js/main.3c49b7e4.js"
   ]
 }
