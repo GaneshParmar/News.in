@@ -86,9 +86,10 @@ export class CricketScore extends Component {
 			  </div>
 		</div>);}
     return (
-      <div>
-            <MatchCard matchNo={this.state.matchno-5}/>        
+      <div className='d-flex flex-wrap'>
             <MatchCard matchNo={this.state.matchno}/>        
+            <MatchCard matchNo={this.state.matchno-5}/>        
+            <MatchCard matchNo={this.state.matchno-10}/>        
       </div>
     )
   }
