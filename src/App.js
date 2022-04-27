@@ -3,7 +3,7 @@ import Header from './Components/Header';
 import NewsWrapper from './Components/newsWrapper';
 import React from 'react';
 import NavHeader from './Components/NavHeader';
-
+import Footer from './Components/Footer'
 
 class App extends React.Component {
 
@@ -46,6 +46,18 @@ class App extends React.Component {
 								result:json.results
 							});
 						})
+						// const options = {
+						// 	method: 'GET',
+						// 	headers: {
+						// 		'X-RapidAPI-Host': 'cricket-live-data.p.rapidapi.com',
+						// 		'X-RapidAPI-Key': '0cadf53f12mshe990fd066c884e7p118e2djsnca4175b11c7f'
+						// 	}
+						// };
+						
+						// fetch('https://cricket-live-data.p.rapidapi.com/fixtures-by-date/2022-04-24', options)
+						// 	.then(response => response.json())
+						// 	.then(response => console.log(response))
+						// 	.catch(err => console.error(err));
     }
     render() {
     const { DataisLoaded, items } = this.state;
@@ -68,6 +80,7 @@ class App extends React.Component {
 
 	  <NewsWrapper r={this.state.result} tag={this.state.tag}/>
 
+	  <Footer />
 
     </div>
 	);
