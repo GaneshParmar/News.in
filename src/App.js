@@ -4,6 +4,7 @@ import NewsWrapper from './Components/newsWrapper';
 import React from 'react';
 import NavHeader from './Components/NavHeader';
 import Footer from './Components/Footer'
+import ScrollToTop from './Components/ScrollToTop';
 
 class App extends React.Component {
 
@@ -74,12 +75,13 @@ class App extends React.Component {
 
 	return(
 
-    <div>
+    <div className='position-relative'>
+	  <ScrollToTop />
       <Header />
 	  <NavHeader parentCallback={this.handleCallback}/>
 
 	  <NewsWrapper r={this.state.result} tag={this.state.tag}/>
-
+   
 	  <Footer />
 
     </div>

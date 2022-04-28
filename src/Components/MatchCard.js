@@ -502,7 +502,23 @@ export class MatchCard extends Component {
     //Check UPcoming
     checkUpcoming=(upcoming)=>{
         if(upcoming){
-            return <p className='bg-primary text-light'>Up Coming!</p>
+            return <p className='upcoming bg-primary p-1 rounded text-light'>Up Coming!</p>
+        }
+    }
+
+    getTime=()=>{
+        let day=""
+        if(new Date(this.props.matchData.dateTimeGMT).getDate()==new Date().getDate()){
+            day="Today"
+        }
+        else{
+            day="Tommorrow"
+        }
+        if(this.props.matchData.dateTimeGMT.includes("14:00")){
+            return `Match Start ${day} at 07:30pm 🧘🏻‍♂️`
+        }
+        else{
+            return `Match Start ${day} at 03:30pm 😃`
         }
     }
 
@@ -528,7 +544,7 @@ export class MatchCard extends Component {
                     {this.checkUpcoming(this.props.upcoming)}
                     {this.refreshScore()}
                     <p className='text-secondary w-25'>{this.props.matchData.name.split(",")[1]}</p>
-                    <div className='d-flex justify-content-evenly'>
+                    <div className='d-flex justify-content-evenly mt-4'>
                             <div className='team1Img'>
                                 <img src={this.getTeamLogo({team1})[0]} alt="team1" width={60}/>
                                 <h4>{this.getTeamLogo({team1})[1]}</h4>
@@ -542,8 +558,8 @@ export class MatchCard extends Component {
                     <div>
                         {this.getScore(team1,team2)}
                     </div>
-                    <div>
-                        <p className='h6 text-primary m-4'>{this.props.matchData.status}</p>
+                    <div className='mt-4'>
+                        <p className='h6 text-primary m-4'>{this.props.matchData.status=="Match not started"?this.getTime():this.props.matchData.status}</p>
                     </div>
                 </div>
 
